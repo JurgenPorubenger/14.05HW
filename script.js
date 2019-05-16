@@ -1,6 +1,13 @@
 function func() {
-    let consLog = console.log(document.getElementById("numb").value);
-    if (consLog<5) {
-        document.getElementById("check").onclick = func;
-    } else console.warn("Nehua")
+    let variable= document.getElementById("numb").value; 
+    if (variable<=5&&variable!=Number) {
+        console.log("This is number :" + document.getElementById("numb").value);
+    } 
+    else if (variable=String){
+        console.log("This is string :" + document.getElementById("numb").value);
+    } else {console.log("Shit!");}
 }
+    document.getElementById("check").onclick = function() {
+            func();   
+    }
+
