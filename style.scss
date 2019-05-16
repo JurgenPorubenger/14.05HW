@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  #numb {
+    margin: 0 auto;
+    width: 500px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 0px 0px 15px 5px lawngreen;
+    font-size: 3rem;
+    color: darkgreen;
+  }
+  #check {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: yellow;
+    margin-top: 50px;
+    box-shadow: 0px 0px 15px 5px lawngreen;
+    font-size: 2rem;
+    color: darkgreen;
+  }
+}
